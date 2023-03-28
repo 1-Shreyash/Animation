@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    animation: widthAnimation2 2s ease-in-out 0.1s infinite alternate ;
+}
+@keyframes widthAnimation2 {
+    0%{
+        width:30vw;
+    }
+    20%{
+        width: 60vw;
+    }
+    100%{
+        width: 50vw;
+    }
+}
