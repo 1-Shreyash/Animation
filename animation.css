@@ -12,6 +12,15 @@
     justify-content: center;
     align-items: center;
 }
+.name{
+    background-color: aqua;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: red;
+}
 img{
     animation: widthAnimation2 2s ease-in-out 0.1s infinite alternate ;
 }
